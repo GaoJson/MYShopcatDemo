@@ -1,0 +1,34 @@
+//
+//  shopcat-PrefixHeader.pch
+//  JSShopcatDemo
+//
+//  Created by Macx on 16/8/25.
+//  Copyright © 2016年 gaojs. All rights reserved.
+//
+
+#ifndef shopcat_PrefixHeader_pch
+#define shopcat_PrefixHeader_pch
+
+#import "Masonry.h"
+
+#define WT_COLOR_NAV    [UIColor colorWithRed:255.0/255 green:102.0/255 blue:0.0/255 alpha:1]
+#define WT_COLOR_BACK   [UIColor colorWithRed:242.0/255 green:243.0/255 blue:249.0/255 alpha:1]
+#define WT_COLOR_TABLE   [UIColor colorWithRed:239.0/255 green:239.0/255 blue:244.0/255 alpha:1]
+
+#define RGB_COLOR(r,g,b)     [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define screen_width [UIScreen mainScreen].bounds.size.width
+#define screen_height [UIScreen mainScreen].bounds.size.height
+
+#define IMG(name)       [UIImage imageNamed:name]
+
+#define WT_COLOR_TABBAR    [UIColor colorWithRed:65.0/255 green:164.0/255 blue:249.0/255 alpha:1]
+
+
+#define nav_height 64
+#define tabbar_height 48
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* shopcat_PrefixHeader_pch */
